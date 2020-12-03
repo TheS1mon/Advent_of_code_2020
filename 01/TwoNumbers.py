@@ -10,6 +10,7 @@ numberList = []
 for number in numbers:
     numberList.append(int(number.rstrip()))
 
+# Avoids double entrys
 finished = False
 
 # iterate through all different number combinations in the List
